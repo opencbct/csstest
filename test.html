@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +17,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+ box-sizing: inherit; 
 }
 
 .column {
@@ -37,6 +41,7 @@ html {
 
 .container {
   padding: 0 16px;
+  flex-wrap: wrap;
 }
 
 .container::after, .row::after {
@@ -50,6 +55,22 @@ html {
 }
 
 
+<!-- .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+} -->
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -61,45 +82,83 @@ html {
 <body>
 
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h1>ABOUT US</h1>
+  <p>Find a friend locally. You can be a tennis partner. Aren't you curious where the famous food is hidden? </p>
+  <p>Get help from your new friend to find out what's the secret to being healthy in this low place.</p>
 </div>
 
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
+<h2 style="text-align:center">Meeting a friend in a low place...</h2>
+<div class="row"> 
+
   <div class="column">
     <div class="card">
-      <img src="./.img/01sports.jpeg" alt="sportsandfood" style="width:100%">
+      <img src="./.img/01sports.jpeg" alt="sports" style="width:100%">
       <div class="container">
-        <h2>SPORTS AND FOOD</h2>
-        <p class="title">Sports and Food</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <h2>SPORTS</h2>
+        <p class="title">Sports</p>
+        <p>Sportsfriends is something like a time capsule of the local multiplayer games that new friends and you were making and playing in and around ...</p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="./.img/03artsandmuseum.jpg" alt="artsandhistory" style="width:100%">
+      <img src="./.img/02ramen.jpeg" alt="food" style="width:100%">
       <div class="container">
-        <h2>ARTS AND HISTORY</h2>
-        <p class="title">Arts and History</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <h2>FOOD</h2>
+        <p class="title">Food</p>
+        <p>Sportsfriends is something like a time capsule of the local multiplayer games that new friends and you were making and playing in and around ...</p>
       </div>
     </div>
   </div>
+    
+
+  <div class="column">
+    <div class="card">
+      <img src="./.img/03arts.jpeg" alt="arts" style="width:100%">
+      <div class="container">
+        <h2>ARTS</h2>
+        <p class="title">Arts</p>
+        <p>Sportsfriends is something like a time capsule of the local multiplayer games that new friends and you were making and playing in and around ...</p>
+      </div>
+    </div>
+  </div>
+
   
   <div class="column">
     <div class="card">
-      <img src="./.img/05wellness.jpeg" alt="wellnessandnightlife" style="width:100%">
+      <img src="./.img/04nightlife.jpeg" alt="nightlife" style="width:100%">
       <div class="container">
-        <h2>WELLNESS AND NIGHTLIFE</h2>
+        <h2>NIGHTLIFE</h2>
         <p class="title">Wellless and NIghtlife</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>If your friends don't like to stay at one place, check out areas with many bars and clubs grouped together.</p>
       </div>
     </div>
   </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./.img/05wellness.jpg" alt="wellness" style="width:100%">
+      <div class="container">
+        <h2>WELLNESS</h2>
+        <p class="title">wellness</p>
+        <p>There are lots of ways to get involved with Forest Grove history!</p>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="column">
+    <div class="card">
+      <img src="./.img/06history.jpeg" alt="history" style="width:100%">
+      <div class="container">
+        <h2>HISTORY</h2>
+        <p class="title">history</p>
+        <p>Sportsfriends is something like a time capsule of the local multiplayer games that new friends and you were making and playing in and around ...</p>
+      </div>
+    </div>
+  </div>          
+
 </div>
 
 </body>
